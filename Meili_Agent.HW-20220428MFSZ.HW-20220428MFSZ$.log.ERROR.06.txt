@@ -1,0 +1,89 @@
+Log file created at: 2024/08/22 20:17:53
+Running on machine: HW-20220428MFSZ
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0822 20:17:53.411661  8992 registry.cpp:304] [DelValue] RegDeleteValueW failed,error msg: 系统找不到指定的文件。
+E0822 20:17:53.419669  8992 logon_fsm.cpp:268] get status fail.
+E0822 20:17:53.423660  8992 kale_filter.cpp:404] CKAleFilter::SetFilter AleReauthPermit: 1 OtherInjectPermit: 0 Size: 0
+E0822 20:17:53.423660  8992 kale_filter.cpp:408] CKAleFilter::SetFilterToKernel 0
+E0822 20:17:53.424625  8992 vcd_store.cpp:537] [SetStoreLocation] Mkdir failed, path = ation" : "\
+E0822 20:17:53.459571  8992 registry.cpp:304] [DelValue] RegDeleteValueW failed,error msg: 系统找不到指定的文件。
+E0822 20:17:53.575223  8992 vhd_manager.cpp:551] datacloak::agent::modules::VHDManager::UnmountAllOnStart [UnMountVirtualReg]  return false.
+E0822 20:17:53.575223  8992 fsp_client.cpp:1669] [QueryDomainIDs] response is not ok, ret_code = DATACLOAK_DOMAIN_NOT_FOUND
+E0822 20:17:53.575223  8992 fsp_client.cpp:423] [QueryAllDomainIDs] QueryDomainIDs return code = DATACLOAK_DOMAIN_NOT_FOUND
+E0822 20:17:53.575223  8992 fsp_client.cpp:387] [QueryAllDomains] QueryAllDomainIDs return code = DATACLOAK_DOMAIN_NOT_FOUND
+E0822 20:17:53.575223  8992 vhd_manager.cpp:558] [UnmountAllOnStart] QueryAllDomains return code = DATACLOAK_DOMAIN_NOT_FOUND
+E0822 20:17:53.575223  8992 vhd_manager.cpp:124] [Start] UnmountAllOnStart return false.
+E0822 20:17:53.594172  8992 proc_policy.cpp:776] datacloak::agent::base::ProcPolicyBucket::GeneratePolicies failed to delete dciogrd\FspInfo,error code = 2
+E0822 20:17:53.594172  8992 proc_policy.cpp:781] datacloak::agent::base::ProcPolicyBucket::GeneratePolicies failed to delete MeiliAgent\FspInfo,error code = 2
+E0822 20:17:53.594172  8992 proc_policy.cpp:786] datacloak::agent::base::ProcPolicyBucket::GeneratePolicies failed to delete MeiliAgentLoader\FspInfo,error code = 2
+E0822 20:17:53.607169  8992 e2e_knock_server.cpp:181] datacloak::segment::E2EKnockServer::ReadPortOpenListReadPBMessages Error! [C:\ProgramData\DCubeAgent\config\..//persist//e2e_infos]
+E0822 20:17:53.608134  8992 route_config.cpp:1240] datacloak::segment::RouteConfig::DeletePersistReadPBMessages Error! [C:\ProgramData\DCubeAgent\config\..//persist//forward_entries]
+E0822 20:17:53.610131  8992 service_control.cpp:113] datacloak::wg::WGService::StopService: OpenServiceW failed: 1060
+E0822 20:17:53.610131  8992 service_control.cpp:113] datacloak::wg::WGService::StopService: OpenServiceW failed: 1060
+E0822 20:17:53.610131  8992 service_control.cpp:113] datacloak::wg::WGService::StopService: OpenServiceW failed: 1060
+E0822 20:17:53.612125  8992 wireguard_interface_manager.cpp:1274] datacloak::wg::WireguardInterface::StopWGTunnerService: wireguard unregister failed: DC_WG_PROC_START_FAILED
+E0822 20:17:53.612125  8992 service_control.cpp:113] datacloak::wg::WGService::StopService: OpenServiceW failed: 1060
+E0822 20:17:53.612125  8992 wireguard_interface_manager.cpp:1274] datacloak::wg::WireguardInterface::StopWGTunnerService: wireguard unregister failed: DC_WG_PROC_START_FAILED
+E0822 20:17:53.613123  8992 service_control.cpp:113] datacloak::wg::WGService::StopService: OpenServiceW failed: 1060
+E0822 20:17:53.613123  8992 service_control.cpp:113] datacloak::wg::WGService::StopService: OpenServiceW failed: 1060
+E0822 20:17:53.614120  6816 auth_client.h:97] AuthClientEx() : begin 
+E0822 20:17:53.616114  6816 tools.cpp:51] getWindowsLoginUser() = Administrator
+E0822 20:17:53.626119 16060 data_log.cpp:397] high priority log is not started
+E0822 20:17:53.685928  6816 fsp_client.cpp:1757] [SendMessageInternal] UNEXPECTED ERROR received, error = Error Code = [0], , type = , result = -2147024809
+E0822 20:17:53.685928  6816 fsp_client.cpp:1062] [StartIpcCommControl] SendMessageInternal failed.
+E0822 20:17:55.583688 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:17:57.586684 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:17:59.602034 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:01.617906 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:03.631103 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:05.640872 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:07.649621 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:09.660013 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:11.669402 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:13.679973 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:15.693199 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:17.702395 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:19.708855 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:21.709800 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:23.716459 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:25.725874 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:27.735991 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:29.747061 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:31.751004 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:33.759410 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:35.766667 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:37.778345 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:39.786893 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:41.794524 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:43.802273 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:45.813038 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:47.826272 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:49.838296 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:51.848789 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:53.862331 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:55.863374 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:57.874163 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:18:59.880721 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:01.891077 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:03.903774 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:05.913529 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:07.921231 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:09.931582 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:11.946175 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:13.956955 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:15.964459 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:17.973645 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:19.981348 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:21.988852 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:23.996013 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:26.004652 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:28.017235 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:30.030274 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:32.036754 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:34.046134 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:36.061013 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:38.072408 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:40.079891 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:42.091830 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:44.099031 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
+E0822 20:19:46.112277 11692 outgo_task_consumer.cpp:810] [DoRoutine] waiting for LOGON
